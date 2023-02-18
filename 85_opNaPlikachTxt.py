@@ -47,17 +47,14 @@ def usun():
         if (t[1] != cechaChar):
             pom.append(v)
             # print("gg")
-        else:
-            pom3 = 1
-    if (pom3 == 1):
-        print("Właściwie to po tej operacji precyzyjniej byłoby napisać: istniała... (bądź istniał).")
-        print()
-        jakasZm2 = open("dane85.txt", "w", encoding="utf8")
+    print("Właściwie to po tej operacji precyzyjniej byłoby napisać: istniała... (bądź istniał).")
+    print()
+    jakasZm2 = open("dane85.txt", "w", encoding="utf8")
 
-        jakasZm2.writelines(pom)   # Tu wrzucam od razu całą listę.
-        # for i in pom:         # Tą pętlą wrzucam kolejne indeksy z listy.
-        #     jakasZm2.write(i)
-        jakasZm2.close()
+    jakasZm2.writelines(pom)   # Tu wrzucam od razu całą listę.
+    # for i in pom:         # Tą pętlą wrzucam kolejne indeksy z listy.
+    #     jakasZm2.write(i)
+    jakasZm2.close()
 
 def pokaz():
 
